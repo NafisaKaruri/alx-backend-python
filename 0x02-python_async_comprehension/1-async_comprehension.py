@@ -14,6 +14,6 @@ async def async_comprehension() -> List[float]:
     using an asynchronous list comprehension.
 
     Returns:
-        List[float]: A list of random float values yielded by the async_generator.
+        List[float]: list of random float values yielded by the async_generator
     """
     return [_ async for _ in async_generator()]
